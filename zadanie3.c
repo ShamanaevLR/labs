@@ -12,17 +12,17 @@ int main()
   scanf("%d", &power_of_number);
   printf("%d %d\n", power_of_number, get_power(number, power_of_number));
 
-return 0;
+  return 0;
 }
 int get_power(int number, int power)
 {
   int i;
   int result;
   result = 1;
-     for (i = 1; i <= power; ++i)
-     {
-     result = result * number;
-     }
+  for (i = 1; i <= power; ++i)
+  {
+    result = result * number;
+  }
   
-return result;
+  return result;
 }
