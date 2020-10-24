@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 long long get_fibbonachi_via_cycle(int number);
- int main()
+int main()
 {
   int n;
   printf ("Enter n for find fibbonachi: ");
