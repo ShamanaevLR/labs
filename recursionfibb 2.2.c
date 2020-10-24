@@ -23,10 +23,10 @@ int main()
     int n;
     printf("Enter n for find fibbonachi: ");
     scanf("%d", &n);
-      for (int count = 1; count < n; count++)
-      {
+    for (int count = 1; count < n; count++)
+    {
         printf("%llu\t\n", get_fibbonachi_via_recursion(count));
-      }
+    }
       
 return 0;
 }
