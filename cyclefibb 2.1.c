@@ -13,11 +13,11 @@ long long get_fibbonachi_via_cycle(int number)
 {
   long fib = 1;
   long fib_sum = 1;
-    for (int i = 0; i < number - 2; i++)
-    {
-      fib += fib_sum;
-      fib_sum = fib - fib_sum;
-    }
+  for (int i = 0; i < number - 2; i++)
+  {
+    fib += fib_sum;
+    fib_sum = fib - fib_sum;
+  }
 
   return fib_sum;
 }
